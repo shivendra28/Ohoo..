@@ -186,7 +186,8 @@
     border-radius: 4px;
     border: none;
     background-color: #f6F7F8;
-    background: linear-gradient(to right, #9ed744, #ffff, #9ed7ff);
+    /* background: linear-gradient(to right, #20d3e8, #b5f0a1, #20d3e8); */
+    background: linear-gradient(to right, #dfe0e2, #f0f4fa, #dfe0e2);
     background-size: 800px 50px;
     height: 20px;
     animation: loader 3s infinite linear;
