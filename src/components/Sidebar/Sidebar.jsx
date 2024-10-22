@@ -9,15 +9,13 @@ import { CiChat1 } from "react-icons/ci";
 import { GoQuestion } from "react-icons/go";
 import { SlSettings } from "react-icons/sl";
 
-
-
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);
   return (
-    <div className="sidebar">
+    <div className={`${extended ? "sidebar sidebar-extend" : "sidebar"}`}>
       <div className="top">
         <div className="menu">
-          <MdMenu className="icon" onClick={()=>setExtended(!extended)}/>
+          <MdMenu className="icon" onClick={() => setExtended(!extended)} />
         </div>
         <div className="new-chat">
           <GoPlus className="icon" />
