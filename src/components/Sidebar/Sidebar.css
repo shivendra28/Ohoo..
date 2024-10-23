@@ -69,6 +69,9 @@
     color: #282828;
     cursor: pointer;
 }
+.sidebar .recent-entry .icon{
+font-size: 25px;
+}
 
 .sidebar .recent-entry:hover {
     background-color: #e2e6eb;
@@ -77,6 +80,9 @@
 .sidebar .bottom {
     display: flex;
     flex-direction: column;
+}
+.sidebar .bottom  .icon{
+font-size: 20px;
 }
 
 .sidebar .bottom-ittem {
